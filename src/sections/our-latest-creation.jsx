@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import SectionTitle from "../components/section-title";
+import bloodAssist from "../assets/blood-assist.jpeg";
+import ondcMarketplace from "../assets/ondc-marketplace.jpeg";
+import scheduleMeetings from "../assets/schedule-meetings.jpeg";
 
 export default function OurLatestCreation() {
     const [isHovered, setIsHovered] = useState(false);
@@ -23,19 +26,19 @@ export default function OurLatestCreation() {
         {
             title: "ONDC Marketplace",
             description: "Discover products from multiple sellers with category-based search and secure payments.",
-            image: "/assets/ondc-marketplace.jpeg",
+            image: ondcMarketplace,
             align: "object-center",
         },
         {
             title: "Save Lives Near You",
             description: "Connect with a network of verified donors, track real-time blood requirements, and receive emergency alerts in your community.",
-            image: "/assets/blood-assist.jpeg",
+            image: bloodAssist,
             align: "object-center",
         },
         {
             title: "Coordinate With Ease",
             description: "Schedule professional meetings or social gatherings with integrated calendar syncing and a seamless, collaborative chat interface.",
-            image: "/assets/schedule-meetings.jpeg",
+            image: scheduleMeetings,
             align: "object-center",
         },
     ];

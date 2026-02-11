@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { useMotionValue, useSpring, motion } from 'framer-motion';
+import hero from '../assets/hero-section-showcase-2.png';
 
 const springValues = {
     damping: 30,
@@ -52,7 +53,7 @@ export default function TiltedImage({ rotateAmplitude = 3, }) {
             transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
         >
             <motion.div className="relative [transform-style:preserve-3d] w-full max-w-4xl mt-8" style={{ rotateX, rotateY }} >
-                <img src="/assets/hero-section-showcase-2.png"
+                <img src={hero}
                     className="w-full rounded-[15px] will-change-transform [transform:translateZ(0)]"
                     alt="hero section showcase"
                 />
