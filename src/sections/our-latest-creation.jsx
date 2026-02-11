@@ -23,19 +23,19 @@ export default function OurLatestCreation() {
         {
             title: "ONDC Marketplace",
             description: "Discover products from multiple sellers with category-based search and secure payments.",
-            image: "/claverit/assets/ondc-marketplace.jpeg",
+            image: "/assets/ondc-marketplace.jpeg",
             align: "object-center",
         },
         {
             title: "Save Lives Near You",
             description: "Connect with a network of verified donors, track real-time blood requirements, and receive emergency alerts in your community.",
-            image: "/claverit/assets/blood-assist.jpeg",
+            image: "/assets/blood-assist.jpeg",
             align: "object-center",
         },
         {
             title: "Coordinate With Ease",
             description: "Schedule professional meetings or social gatherings with integrated calendar syncing and a seamless, collaborative chat interface.",
-            image: "/claverit/assets/schedule-meetings.jpeg",
+            image: "/assets/schedule-meetings.jpeg",
             align: "object-center",
         },
     ];

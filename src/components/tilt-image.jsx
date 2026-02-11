@@ -51,8 +51,8 @@ export default function TiltedImage({ rotateAmplitude = 3, }) {
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
         >
-            <motion.div className="relative [transform-style:preserve-3d] w-full max-w-4xl" style={{ rotateX, rotateY }} >
-                <img src="/claverit/assets/hero-section-showcase-2.png"
+            <motion.div className="relative [transform-style:preserve-3d] w-full max-w-4xl mt-8" style={{ rotateX, rotateY }} >
+                <img src="/assets/hero-section-showcase-2.png"
                     className="w-full rounded-[15px] will-change-transform [transform:translateZ(0)]"
                     alt="hero section showcase"
                 />
